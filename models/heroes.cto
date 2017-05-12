@@ -1,0 +1,9 @@
+/**
+ * Simple data model for the Tour of Heroes Angular tutorial
+ */
+namespace uk.me.nti.composer.heroes
+
+asset Hero identified by id {
+  o String id
+  o String name
+}

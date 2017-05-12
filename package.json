@@ -1,0 +1,27 @@
+{
+  "name": "blockchain-tour-of-heroes",
+  "version": "1.0.0",
+  "description": "Hyperledger Composer example to store Angular Tour of Heroes data on a blockchain",
+  "files": [
+    "heroes.bna"
+  ],
+  "private": true,
+  "scripts": {
+    "prepublish": "composer archive create --archiveFile heroes.bna --sourceType dir --sourceName .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jt-nti/blockchain-tour-of-heroes.git"
+  },
+  "keywords": [
+    "hyperledger",
+    "composer",
+    "blockchain"
+  ],
+  "author": "James Taylor <jamest@uk.ibm.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "composer-cli": "^0.7.2"
+  }
+}
